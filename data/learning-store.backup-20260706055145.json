@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-06T09:31:00.935Z",
+  "updatedAt": "2026-07-06T09:43:25.476Z",
+  "headerAssociations": {
+    "claim id": {
+      "claimId": 1
+    },
+    "cpt": {
+      "cpt": 1
+    },
+    "insurance": {
+      "payer": 1
+    },
+    "fee": {
+      "charges": 1
+    },
+    "approx allowed": {
+      "allowedAmount": 1
+    },
+    "pri pmt recvd": {
+      "totalPayment": 1
+    },
+    "adjustments 1": {
+      "adjustment": 1
+    },
+    "balance": {
+      "outstandingBalance": 1
+    },
+    "dos": {
+      "serviceDate": 1
+    },
+    "pri payment date": {
+      "paymentPostedDate": 1
+    },
+    "status code": {
+      "denialReason": 1
+    },
+    "claim": {
+      "claimId": 1
+    },
+    "cpt code": {
+      "cpt": 1
+    },
+    "insurance carrier": {
+      "payer": 1
+    },
+    "billed amt": {
+      "charges": 1
+    },
+    "allowed amt": {
+      "allowedAmount": 1
+    },
+    "ins pmt": {
+      "totalPayment": 1
+    },
+    "contractual adj": {
+      "adjustment": 1
+    },
+    "outstanding": {
+      "outstandingBalance": 1
+    },
+    "date of svc": {
+      "serviceDate": 1
+    },
+    "posted date": {
+      "paymentPostedDate": 1
+    },
+    "denial rmk": {
+      "denialReason": 1
+    }
+  },
+  "templates": {
+    "66d8c2b9d2b2582bd565568fb27d418688f8ac2b": {
+      "mapping": {
+        "claimId": "Claim ID",
+        "cpt": "CPT",
+        "payer": "Insurance",
+        "charges": "Fee",
+        "allowedAmount": "Approx_Allowed",
+        "primaryPayment": null,
+        "secondaryPayment": null,
+        "totalPayment": "Pri Pmt Recvd",
+        "adjustment": "Adjustments 1",
+        "outstandingBalance": "Balance",
+        "arDays": null,
+        "serviceDate": "DOS",
+        "paymentPostedDate": "Pri payment Date",
+        "denialReason": "Status Code",
+        "units": null
+      },
+      "headers": [
+        "S No",
+        "Patient ID",
+        "Claim ID",
+        "Patient Name",
+        "Insurance",
+        "DOS",
+        "Provider",
+        "Facility",
+        "CPT",
+        "Fee",
+        "Billed Date",
+        "Approx_Allowed",
+        "Pri Check#",
+        "Pri Pmt Recvd",
+        "Sec Check#",
+        "Sec Pmt Recvd",
+        "Total Pmt Rcvd",
+        "Adjustments 1",
+        "Adjustments 2",
+        "Total Adjustments",
+        "Balance",
+        "Pri payment Date",
+        "Sec Payment date",
+        "AR Comments",
+        "Status Code",
+        "Action Code"
+      ],
+      "uses": 1,
+      "lastUsedAt": "2026-07-06T09:32:05.685Z"
+    },
+    "5d0c51ac670698288ba11cbb52d39517f6ef4ed0": {
+      "mapping": {
+        "claimId": "Claim #",
+        "cpt": "CPT Code",
+        "payer": "Insurance Carrier",
+        "charges": "Billed Amt",
+        "allowedAmount": "Allowed Amt",
+        "primaryPayment": null,
+        "secondaryPayment": null,
+        "totalPayment": "Ins Pmt",
+        "adjustment": "Contractual Adj",
+        "outstandingBalance": "Outstanding",
+        "arDays": null,
+        "serviceDate": "Date of Svc",
+        "paymentPostedDate": "Posted Date",
+        "denialReason": "Denial Rmk",
+        "units": null
+      },
+      "headers": [
+        "Claim #",
+        "CPT Code",
+        "Insurance Carrier",
+        "Date of Svc",
+        "Posted Date",
+        "Billed Amt",
+        "Allowed Amt",
+        "Ins Pmt",
+        "Pt Pmt",
+        "Contractual Adj",
+        "Outstanding",
+        "Denial Rmk"
+      ],
+      "uses": 1,
+      "lastUsedAt": "2026-07-06T09:43:25.476Z"
+    }
+  },
+  "stats": {
+    "uploadsProcessed": 2
+  }
+}

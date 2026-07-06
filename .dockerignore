@@ -1,0 +1,12 @@
+node_modules
+client/node_modules
+client/dist
+data
+.env
+.git
+*.log
+npm-debug.log*
+README.md
+Dockerfile
+.dockerignore
+.gitignore
